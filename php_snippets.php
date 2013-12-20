@@ -35,7 +35,7 @@ function send_404()
  
 # In any file you want to connect to the database, 
 # and in this case we will name this file db.php 
-# just add this line of php code (without the pound sign):
+# just add this line of php code (without the pound sign): 
 # include"db.php";
 
 
