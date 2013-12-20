@@ -1,0 +1,31 @@
+-- Comment
+SELECT *
+FROM Table
+WHERE Col = 1;
+
+-- //////////////////////////////////////////////////////////////////////
+
+INSERT INTO Table(Col1, Col2)
+VALUES (1, 2);
+
+
+-- //////////////////////////////////////////////////////////////////////
+
+UPDATE Table
+SET Col = val, Col = val
+WHERE Col = 1;
+
+-- //////////////////////////////////////////////////////////////////////
+
+-- Comment
+DELETE FROM Table
+WHERE Col = 1;
+
+-- //////////////////////////////////////////////////////////////////////
+
+-- LEFT JOIN snippet
+-- http://www.w3schools.com/sql/sql_join_left.asp
+SELECT column_name(s)
+FROM table1
+LEFT JOIN table2
+ON table1.column_name=table2.column_name;
